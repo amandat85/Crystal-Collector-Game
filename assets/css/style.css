@@ -22,6 +22,7 @@ h1 {
     padding: 2rem 2rem 2rem 2rem;
     margin-left: 3rem;
     width: 30%;
+    border-radius: 25px;
 }
 
 .gameArea {
@@ -33,31 +34,34 @@ h1 {
 
 #target {
     background-color: #A7D7B2;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 5rem 2rem 5rem 2rem;
     position: absolute;
     top: 100px;
-    left: 100px;
+    left: 125px;
     width: 20%;
     height: 100%;
+    border-radius: 25px;
 
 }
 
 #yourNumber {
     /*float: right;*/
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 5rem 2rem 5rem 2rem;
     background-color: #A7D7B2;
     position: absolute;
     top: 100px;
-    left: 450px;
+    left: 400px;
     width: 20%;
     height: 100%;
+    border-radius: 25px;
 }
 
-#images {
+/*Image configuration*/
+.images {
     clear: both;
     position: absolute;
-    top: 200px;
-    left: 35px;
+    top: 250px;
+    left: 15px;
     padding: 2rem 2rem 2rem 2rem;
 }
 
@@ -76,3 +80,14 @@ h1 {
 #purple {
     padding: 2rem 2rem 2rem 2rem;
 }
+
+/*Stats Area for Game Play*/
+.stats {
+    position: absolute;
+    left: 125px;
+    top: 450px;
+    padding: 2rem 15rem 7rem 15rem;
+    background-color: #A4D1F1;
+    border-radius: 25px;
+}
+ 

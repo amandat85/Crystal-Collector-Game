@@ -10,12 +10,14 @@
     <title>Crystal Collector Game</title>
 </head>
 <body>
+<!--Heading Title-->    
     <div id="headerarea">
         <header>
             <h1>Crystal Collector Game</h1>
         </header>
     </div>
-    
+
+ <!--Rules of the Game-->   
     <div id="rules">
         <h3>Rules</h3>
             <ol>
@@ -29,31 +31,33 @@
             </ol>
     </div>
 
+<!--Game Stats and Progress Area-->
     <div class="gameArea">
-        <section id="target">
-            
+        <section id="target">   
         </section>
 
         <section id="yourNumber">
-            
         </section>
 
-        <section id="images">
+        <section class="images">
             <img id="orange" src="assets/images/5a8cffec2d6ad40001720f22_Asset 5@2x.png" height=100>
             <img id="blue" src="assets/images/5a8cffecaee91400019463c4_Asset 2@2x.png" height=100>
             <img id="red" src="assets/images/5a8cffecaee91400019463c5_Asset 1@2x.png" height=100>
             <img id="purple" src="assets/images/5a8d073baee9140001946903_Asset 6@2x.png" height=100>
         </section>
 
-        <section id="stats">
-            <h3>Stats</h3>
-                <p>Wins</p>
-                <p>Losses</p>
+        <section class="stats">
+            <p id="wins"></p>
+            <p id="losses"></p>
         </section>
-
-        
-
     </div>
-    
+
+
+ <!--Javascript-->   
+<script src="/assests/javascript/game.js"></script>    
+
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </body>
 </html>
