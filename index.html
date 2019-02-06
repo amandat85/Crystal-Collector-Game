@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Righteous|Sigmar+One" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!--jQuery--> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <title>Crystal Collector Game</title>
 </head>
 
@@ -20,7 +22,6 @@
         </div>
     </div>    
 
-<!--Card Side Left & Card Main-->
 <!--Rules of the Game-->  
     <div class="container-fluid mb-5">
         <div class="row">
@@ -52,7 +53,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card-deck">
-                            <div class="card" id="target">
+                            <div class="card text-center align-items-center" id="target">
                                 <div class="card-body">
                                 </div>
                             </div>
@@ -66,12 +67,17 @@
                 </div>        
  
 <!--Images-->
-                <div class="row">  
-                    <div class="col-md-12 ml-5">
-                        <img id="orange" src="assets/images/5a8cffec2d6ad40001720f22_Asset 5@2x.png" height=140>
-                        <img id="blue" src="assets/images/5a8cffecaee91400019463c4_Asset 2@2x.png" height=140>
-                        <img id="red" src="assets/images/5a8cffecaee91400019463c5_Asset 1@2x.png" height=140>
-                        <img id="purple" src="assets/images/5a8d073baee9140001946903_Asset 6@2x.png" height=140>
+                <div class="row text-center">  
+                    <div class="col-md-12">
+                        <img id="orange" src="assets/images/5a8cffec2d6ad40001720f22_Asset 5@2x.png" height=120>
+                        <img id="blue" src="assets/images/5a8cffecaee91400019463c4_Asset 2@2x.png" height=120>
+                    </div>
+                </div>    
+
+                <div class="row text-center">  
+                    <div class="col-md-12 my-auto"> 
+                        <img id="red" src="assets/images/5a8cffecaee91400019463c5_Asset 1@2x.png" height=120>
+                        <img id="purple" src="assets/images/5a8d073baee9140001946903_Asset 6@2x.png" height=120>
                     </div>
                 </div>
 <!--Stats-->  
@@ -95,10 +101,9 @@
     </div>
 
  <!--Javascript-->   
- <script src="assets/javascript/game.js"></script>  
-
-<!--jQuery-->
-<script src="https://code.jquery.com/jquery.js"></script>
+<script src="assets/javascript/game.js"></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 </body>
 </html>

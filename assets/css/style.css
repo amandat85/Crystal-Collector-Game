@@ -23,13 +23,6 @@ h1 {
     border-radius: 25px;
 }
 
-.gameArea {
-    float: right;
-    margin-right: 3rem;
-    width: 55%;
-    position:relative;
-}
-
 #target {
     background-color: #F5F0EB;
     border-radius: 25px;
@@ -68,7 +61,7 @@ h1 {
     background-color: #F5F0EB;
     border-radius: 25px;
     height: 10rem;
-    width: 10rem;
+    width: 15rem;
 
 }
 
