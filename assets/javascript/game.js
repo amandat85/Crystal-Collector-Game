@@ -22,6 +22,7 @@ $("#target").html("Target" + "<br>" + targetNumber);
 
 //A random number will be assigned to the gems
 var gem1 = Math.floor(Math.random() *(12-1+1)) + 1;
+//$(".gemCount").html(gem1);
 console.log(gem1);
 
 var gem2 = Math.floor(Math.random() *(12-1+1)) + 1;
