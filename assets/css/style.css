@@ -17,24 +17,28 @@ h1 {
     font-family: 'Sigmar One', cursive;
     text-align: center;
 }
+.align {
+    padding-top: 45px;
+}
 
 #rules {
     background-color: #F5F0EB;
     border-radius: 25px;
+    padding-bottom: 25px;
 }
 
 #target {
     background-color: #F5F0EB;
     border-radius: 25px;
     height: 10rem;
-    width: 15rem;
+    font-family: 'PT Sans Caption', sans-serif;
+ 
 }
 
 #yourNumber {
     background-color: #F5F0EB;
     border-radius: 25px;
-    height: 10rem;
-    width: 15rem;
+    font-family: 'PT Sans Caption', sans-serif;
 }
 
 /*Image configuration*/
@@ -61,13 +65,12 @@ h1 {
     background-color: #F5F0EB;
     border-radius: 25px;
     height: 10rem;
-    width: 15rem;
-
+    font-family: 'PT Sans Caption', sans-serif;
 }
 
 #losses {
     background-color: #F5F0EB;
     border-radius: 25px;
     height: 10rem;
-    width: 15rem;
+    font-family: 'PT Sans Caption', sans-serif;
 }

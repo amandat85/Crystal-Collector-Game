@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 <!--Typography-->
     <link href="https://fonts.googleapis.com/css?family=Raleway|Righteous|Sigmar+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:700" rel="stylesheet">
 <!--CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <!--jQuery--> 
@@ -26,7 +27,7 @@
     </div>    
 
 <!--Rules of the Game-->  
-    <div class="container-fluid mb-5">
+    <div class="container-fluid h-100 mb-5">
         <div class="row">
             <div class="col-md-5 offset-md-1">
                 <div class="card mb-4 mt-2" id="rules">
@@ -35,15 +36,15 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <ol>
-                                            <li>You will be given a random number, (target), at the start of the game.</li>
-                                            <li>There are four crystals below, each assigned a random number.</li>
-                                            <li>By clicking on a crystal, you will add an amount of points to your total score.</li>
-                                            <li>You win the game by matching your score to the random number generated at the start of the game.</li>
-                                            <li>You lose the game when you go over the generated number.</li>
-                                            <li>After each game win or lose, the game will reset and a new number will be generated.</li>
+                                        <!--<ol>-->
+                                            <li>You will be given a random number, (target), at the start of the game.</li><br>
+                                            <li>There are four crystals below, each assigned a random number.</li><br>
+                                            <li>By clicking on a crystal, you will add an amount of points to your total score.</li><br>
+                                            <li>You win the game by matching your score to the random number generated at the start of the game.</li><br>
+                                            <li>You lose the game when you go over the generated number.</li><br>
+                                            <li>After each game win or lose, the game will reset and a new number will be generated.</li><br>
                                             <li>The crystals will be assigned a new value when the game is reset.</li>
-                                        </ol>
+                                       <!-- </ol>-->
                                     </div>
                                 </div>
                             </div>
@@ -52,18 +53,15 @@
             </div>
 
 <!--Target and Player's Number-->
-            <div class="col-md-4 offset-md-1">
+            <div class="col-md-4 offset-md-1 mt-5">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card-deck">
-                            <div class="card text-center align-items-center" id="target">
-                                <div class="card-body">
-                                </div>
+                            <div class="card text-center align" id="target">
+            
                             </div>
   
-                            <div class="card" id="yourNumber">
-                                <div class="card-body">
-                                </div>
+                            <div class="card text-center align" id="yourNumber">
                             </div>
                         </div>
                     </div>
@@ -71,30 +69,26 @@
  
 <!--Images-->
                 <div class="row text-center">  
-                    <div class="col-md-12">
-                        <img id="orange" src="assets/images/5a8cffec2d6ad40001720f22_Asset 5@2x.png" height=120>
-                        <img id="blue" src="assets/images/5a8cffecaee91400019463c4_Asset 2@2x.png" height=120>
+                    <div class="col-md-12 mt-4">
+                        <img id="orange" src="assets/images/orange.png" alt="Orange Gem" height=120>
+                        <img id="blue" src="assets/images/blue.png" alt="Blue Gem" height=120>
                     </div>
                 </div>    
 
                 <div class="row text-center">  
-                    <div class="col-md-12 my-auto"> 
-                        <img id="red" src="assets/images/5a8cffecaee91400019463c5_Asset 1@2x.png" height=120>
-                        <img id="purple" src="assets/images/5a8d073baee9140001946903_Asset 6@2x.png" height=120>
+                    <div class="col-md-12 mb-4"> 
+                        <img id="red" src="assets/images/red.png" alt="Red Gem" height=120>
+                        <img id="purple" src="assets/images/purple.png" alt="Purple Gem" height=120>
                     </div>
                 </div>
 <!--Stats-->  
                 <div class="row">
-                    <div class="col-md-12 ml-3">
+                    <div class="col-md-12 ml-3 mb-3">
                         <div class="card-deck">
-                            <div class="card" id="wins">
-                                <div class="card-body">
-                                </div>
+                            <div class="card text-center align" id="wins">
                             </div>
 
-                            <div class="card" id="losses">
-                                <div class="card-body">
-                                </div>
+                            <div class="card text-center align" id="losses">
                             </div>
                         </div>
                     </div>   
@@ -102,6 +96,11 @@
             </div>        
         </div>
     </div>
+
+    <!--Footer-->
+<div class="footer d-flex align-baseline justify-content-center mt-2 pt-5 pb-2">
+    <p>Copyright &copy; 2019 - Amanda Tomé</p>
+</div>
 
  <!--Javascript-->   
 <script src="assets/javascript/game.js"></script>  

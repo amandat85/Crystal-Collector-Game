@@ -8,9 +8,9 @@ console.log(yourTotal)
 var wins = 0;
 var losses = 0;
 
-$("#wins").text(wins);
-$("#losses").text(losses);
-$("#yourNumber").text(yourTotal);
+$("#wins").html("Wins" + "<br>" + wins);
+$("#losses").html("Losses" + "<br>" + losses);
+$("#yourNumber").html("Your Total" + "<br>" + yourTotal);
 
 //When the game starts a random target number will be generated for the player
 //Generate random number for target
@@ -18,7 +18,7 @@ var targetNumber = Math.floor(Math.random() * (120-19+1)) + 19;
 console.log(targetNumber);
 
 //Assign target number to location in html
-$("#target").text(targetNumber);
+$("#target").html("Target" + "<br>" + targetNumber);
 
 //A random number will be assigned to the gems
 var gem1 = Math.floor(Math.random() *(12-1+1)) + 1;
@@ -38,14 +38,14 @@ console.log(gem4);
 //Reset Game Function
 function reset() {
     yourTotal = 0;
-    $("#yourNumber").text(yourTotal);
+    $("#yourNumber").html("Your Total" + "<br>" + yourTotal);
     console.log(yourTotal)
     yourTotal = parseInt(yourTotal);
 
     targetNumber = Math.floor(Math.random() * (120-19+1)) + 19;
     console.log(targetNumber);
 
-    $("#target").text(targetNumber);
+    $("#target").html("Target" + "<br>" + targetNumber);
 
     gem1 = Math.floor(Math.random() *(12-1+1)) + 1;
     console.log(gem1);
@@ -64,83 +64,83 @@ function reset() {
 //when the gem is clicked the number for that gem will be added to the players progress score * 4
 $("#orange").on("click", function() {
     yourTotal = yourTotal + gem1
-    $("#yourNumber").text(yourTotal);
+    $("#yourNumber").html("Your Total" + "<br>" + yourTotal);
     console.log(yourTotal);
 
 //If the player reaches target without going over then win++ and reset
     if (targetNumber === yourTotal) {
         alert("Congratulations! You Win!");
         wins++;
-        $("#wins").text(wins);
+        $("#wins").html("Wins" + "<br>" + wins);
         reset();
     }
 //Else if the player goes over target then losses++    
     else if (yourTotal > targetNumber) {
         alert("Better Luck Next Time!");
         losses++;
-        $("#losses").text(losses);
+        $("#losses").html("Losses" + "<br>" + losses);
         reset();
     }
 })
 
 $("#blue").on("click", function() {
     yourTotal = yourTotal + gem2
-    $("#yourNumber").text(yourTotal);
+    $("#yourNumber").html("Your Total" + "<br>" + yourTotal);
     console.log(yourTotal);
 
 //If the player reaches target without going over then win++ and reset
     if (targetNumber === yourTotal) {
         alert("Congratulations! You Win!");
         wins++;
-        $("#wins").text(wins);
+        $("#wins").html("Wins" + "<br>" + wins);
         reset();
     }
 //Else if the player goes over target then losses++
     else if (yourTotal > targetNumber) {
         alert("Better Luck Next Time!");
         losses++;
-        $("#losses").text(losses);
+        $("#losses").html("Losses" + "<br>" + losses);
         reset();
     }
 })
 
 $("#red").on("click", function() {
     yourTotal = yourTotal + gem3
-    $("#yourNumber").text(yourTotal);
+    $("#yourNumber").html("Your Total" + "<br>" + yourTotal);
     console.log(yourTotal);
 
 //If the player reaches target without going over then win++ and reset
     if (targetNumber === yourTotal) {
         alert("Congratulations! You Win!");
         wins++;
-        $("#wins").text(wins);
+        $("#wins").html("Wins" + "<br>" + wins);
         reset();
     }
 //Else if the player goes over target then losses++
     else if (yourTotal > targetNumber) {
         alert("Better Luck Next Time!");
         losses++;
-        $("#losses").text(losses);
+        $("#losses").html("Losses" + "<br>" + losses);
         reset();
     }
 })
 
 $("#purple").on("click", function() {
     yourTotal = yourTotal + gem4
-    $("#yourNumber").text(yourTotal);
+    $("#yourNumber").html("Your Total" + "<br>" + yourTotal);
     console.log(yourTotal);
 //If the player reaches target without going over then win++ and reset
     if (targetNumber === yourTotal) {
         alert("you win");
         wins++;
-        $("#wins").text(wins);
+        $("#wins").html("Wins" + "<br>" + wins);
         reset();
     }
 //Else if the player goes over target then losses++
     else if (yourTotal > targetNumber) {
         alert("Better Luck Next Time!");
         losses++;
-        $("#losses").text(losses);
+        $("#losses").html("Losses" + "<br>" + losses);
         reset();
     }
 })
