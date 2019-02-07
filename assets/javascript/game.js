@@ -132,7 +132,7 @@ $("#purple").on("click", function() {
     console.log(yourTotal);
 //If the player reaches target without going over then win++ and reset
     if (targetNumber === yourTotal) {
-        alert("you win");
+        alert("Congratulations! You Win!");
         wins++;
         $("#wins").html("Wins" + "<br>" + wins);
         reset();
