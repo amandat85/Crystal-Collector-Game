@@ -1,5 +1,5 @@
 # Crystal Collector Game
-The objective of this game is to get all the random values of the crystals that are click to equal the random generated target number.
+The objective of this game is to get all the random values of the crystals that are clicked to equal the random generated target number.
 
 ## Languages and Tools Used
 * Bootstrap
