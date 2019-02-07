@@ -38,6 +38,7 @@ h1 {
 #yourNumber {
     background-color: #F5F0EB;
     border-radius: 25px;
+    height: 10rem;
     font-family: 'PT Sans Caption', sans-serif;
 }
 
