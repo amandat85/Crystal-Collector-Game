@@ -20,3 +20,6 @@ https://amandat85.github.io/Crystal-Collector-Game/
 * You lose the game when you go over the generated number.
 * After each game win or lose, the game will reset and a new number will be generated.
 * The crystals will be assigned a new value when the game is reset.
+
+## Animated Gif
+![Crystal Collector Game Demo](crystal-collector-game.gif)
