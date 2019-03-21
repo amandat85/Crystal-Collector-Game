@@ -5,9 +5,9 @@ The objective of this game is to get all the random values of the crystals that 
 https://amandat85.github.io/Crystal-Collector-Game/
 
 ## Languages and Tools Used
-* Bootstrap
-* HTML
-* CSS
+* Bootstrap 4
+* HTML 5
+* CSS 3
 * JavaScript
 * jQuery
 * Google Fonts
