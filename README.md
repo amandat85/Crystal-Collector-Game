@@ -2,7 +2,7 @@
 The objective of this game is to get all the random values of the crystals that are clicked to equal the random generated target number.
 
 ## Site
-https://amandat85.github.io/Crystal-Collector-Game/
+https://amandatome.github.io/Crystal-Collector-Game/
 
 ## Languages and Tools Used
 * HTML 5
