@@ -5,7 +5,7 @@ The objective of this game is to get all the random values of the crystals that 
 https://amandatome.github.io/Crystal-Collector-Game/
 
 ## Assignment Details
-[Homework Details](homework-instructions.md)
+[Homework Details](homework_instructions.md)
 
 ## Languages and Tools Used
 * HTML 5
